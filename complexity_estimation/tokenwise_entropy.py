@@ -8,8 +8,8 @@ LLMModel = Any
 # TODO: Cite https://github.com/abazarova/tda4hallucinations/
 @dataclass
 class TokenwiseEntropy:
-    device: str = "cuda"
     llm_model: LLMModel
+    device: str = "cuda"
 
     def calculate(self, input_ids) -> float:
         token_distribution = self._get_token_distribution(input_ids)
