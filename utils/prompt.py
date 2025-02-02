@@ -12,11 +12,11 @@ def get_sys_prompt(subject: str | None = None):
     return sys_msg
 
 
-option_ids = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P"]
+option_ids = [str(i + 1) for i in range(20)]
 
 
 # https://openreview.net/forum?id=shr9PXz7T0
-def user_prompt(question: str, options: List[str]):
+def get_user_prompt(question: str, options: List[str]):
     options_str = "\n".join([f"{option_id}. {answer}".strip() for option_id, answer in zip(option_ids, options)])
-    user_prompt = f"Question: {question.strip()}\nOptions:\n{options_str}\nAnswer:"
+    user_prompt = f"Question: {question.strip()}\nOptions:\n{options_str}\nAnswer: "
     return user_prompt
