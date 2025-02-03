@@ -19,6 +19,7 @@ huggingface-hub = {extras = ["cli"], version = "^0.28.1"}
 optimum-quanto = "^0.2.6"
 torchao = "^0.8.0"
 mistralai = "^1.5.0"
+openai = "^1.61.0"
 
 
 [build-system]
