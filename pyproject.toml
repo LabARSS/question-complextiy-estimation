@@ -16,6 +16,8 @@ ipykernel = "^6.29.5"
 ipywidgets = "^8.1.5"
 accelerate = "^1.3.0"
 huggingface-hub = {extras = ["cli"], version = "^0.28.1"}
+optimum-quanto = "^0.2.6"
+torchao = "^0.8.0"
 
 
 [build-system]
