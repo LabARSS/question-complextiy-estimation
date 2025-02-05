@@ -11,6 +11,7 @@ class TokenwiseEntropy:
     llm_model: LLMModel
     device: str = "cuda"
 
+    @torch.no_grad()
     def calculate(self, input_ids) -> float:
         token_distribution = self._get_token_distribution(input_ids)
         entropy = self._compute_entropy_from_logits(token_distribution)
