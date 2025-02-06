@@ -295,7 +295,7 @@ Mercury_7251685	Which activity most effectively ensures the proper functioning o
  'reducing stressful exercise' 'drinking ion-free water']"	4	1
 MDSA_2011_5_20	The snowshoe hare sheds its fur twice a year. In the summer, the fur of the hare is brown. In the winter, the fur is white. Which of these statements best explains the advantage of shedding fur?	D	"['Shedding fur keeps the hare clean.'
  'Shedding fur helps the hare move quickly.'
- ""Shedding fur keeps the hare's home warm.""
+ 'Shedding fur keeps the hare's home warm.'
  'Shedding fur helps the hare blend into its habitat.']"	4	3
 MCAS_2006_5_29	Four rods of equal thickness but made of different metals were tested with equal amounts of weight to see which was most flexible. Which of the following is the best way to report the results of this experiment?	D	"['a list of each type of rod used' 'a sketch of each rod before testing'
  'a table showing how much each rod weighed'
@@ -324,9 +324,9 @@ MDSA_2007_5_39	Students are learning about the natural resources in Maryland. On
 Mercury_7164850	A science class designed a poster to show how the barrier islands along the Florida coastline formed. The students showed the effects of wind, waves, and tides on the sand that formed these islands. In the poster, which pair of systems should the students say most affected barrier island formation?	A	"['the hydrosphere and atmosphere' 'the atmosphere and lithosphere'
  'the biosphere and hydrosphere' 'the lithosphere and biosphere']"	4	0
 MCAS_2006_9_31-v1	Which of the following describes the mechanical energy of a cart at rest at the top of a steep hill?	C	"['The cart has no mechanical energy.'
- ""The cart's mechanical energy is all kinetic.""
- ""The cart's mechanical energy is all potential.""
- ""The cart's mechanical energy is half potential and half kinetic.""]"	4	2
+ 'The cart's mechanical energy is all kinetic.'
+ 'The cart's mechanical energy is all potential.'
+ 'The cart's mechanical energy is half potential and half kinetic.']"	4	2
 MCAS_2002_5_6	Hummingbirds can hover in the air and fly very quickly. This benefits the hummingbird in all of the following except	D	"['quickly escaping predators.' 'easily reaching flowers.'
  'staying in one place to drink nectar.' 'keeping eggs warm.']"	4	3
 MEA_2016_5_6	A balloon filled with water is placed in a freezer. Which property of the water will change as the water reaches its freezing point?	C	['color' 'mass' 'state' 'weight']	4	2
@@ -376,7 +376,7 @@ ACTAAP_2010_5_10	Sara tums on a flashlight and holds an object up to the light. 
 VASoL_2008_5_28	Submarines have explored many parts of the ocean. As submarines descend, scientists observe that there is an increase in the -	C	"['amount of light' 'water temperature' 'water pressure'
  'types of ocean organisms']"	4	2
 Mercury_177818	The length of time between night and day on Earth varies throughout the year. This time variance is explained primarily by	C	"['the position of the Sun.' 'the position of the Moon.'
- ""Earth's angle of tilt"" ""Earth's distance from the Sun""]"	4	2
+ 'Earth's angle of tilt' 'Earth's distance from the Sun']"	4	2
 NYSEDREGENTS_2014_8_12	A main function of a plant's seed is to	1	"['store food to be used during early development'
  'attract pollen to be used during development'
  'take in light energy to be used during photosynthesis'
@@ -398,14 +398,14 @@ Mercury_7245193	A rural area was cleared down to bare rock for constructing a ro
 Mercury_7068863	A student investigated the effect of iron on the growth of plants. Four identical plants received a different amount of iron supplement when being watered. This investigation could have been improved if there were	C	"['earthworms in the soil.' 'fewer plants in the experiment.'
  'plants that received water without iron supplements.'
  'plants that received different amounts of sunlight.']"	4	2
-NCEOGA_2013_8_38	In the winter, the fur of the arctic fox is white. In summer, the fur darkens to a reddish brown. What most likely causes the fur of the fox to change color?	C	"['the amount of sunlight present' ""the fox's habitat"" ""the fox's genes""
- ""the fox's age""]"	4	2
+NCEOGA_2013_8_38	In the winter, the fur of the arctic fox is white. In summer, the fur darkens to a reddish brown. What most likely causes the fur of the fox to change color?	C	"['the amount of sunlight present' 'the fox's habitat' 'the fox's genes'
+ 'the fox's age']"	4	2
 Mercury_7090720	Ethanol is an alternative fuel made from corn. What is one of the unfavorable effects of using ethanol as a fuel?	B	"['decreased cost of fuel production'
  'decrease in farm land available for food production'
  'increase in the consumption of fossil fuels'
  'increased carbon footprint from driving automobiles']"	4	1
 MCAS_2006_9_35	Which of the following genetic conditions results from a problem with segregation?	A	"['Trisomy 16: a condition caused when a zygote receives three copies of chromosome 16'
- ""Huntington's disease: a condition caused when a zygote receives a mutated dominant allele""
+ 'Huntington's disease: a condition caused when a zygote receives a mutated dominant allele'
  'Hemophilia: a condition caused when a zygote receives an X chromosome with a particular recessive allele'
  'Sickle cell anemia: a condition caused when a zygote receives a recessive allele for hemoglobin from each parent']"	4	0
 Mercury_7144795	A particular habitat has experienced many changes in environmental conditions over the last 75 years. Which is most likely a characteristic of a species that has the best chance to survive these environmental changes?	D	"['a population with many individuals'
@@ -486,7 +486,7 @@ LEAP_2012_8_10441	A lizard species mostly eats fruit from one particular type of
  'lizards that can find other types of food'
  'lizards that produce more offspring']"	4	2
 Mercury_7220378	Climate change may be reducing the amount of ice floating on the world's oceans. How can this change most likely alter the food supply available to marine consumer organisms?	C	"['by decreasing the amount of salt dissolved in ocean water'
- ""by increasing the water's ability to separate into distinct layers""
+ 'by increasing the water's ability to separate into distinct layers'
  'by changing temperature conditions that single-celled producers require'
  'by preventing organisms from responding quickly to environmental change']"	4	2
 TIMSS_2003_8_pg14	Why would male insects be treated to prevent sperm production?	B	"['To increase the number of female insects'
@@ -559,8 +559,8 @@ Mercury_7037573	What is the best practice to follow when completing an experimen
  'checking with your teacher on the procedure to dispose of chemicals']"	4	3
 NYSEDREGENTS_2014_8_41	In a car accident, a seat belt helps prevent injuries by applying a force	4	"['less than the force of the moving passenger'
  'greater than the force of the moving car'
- ""in the same direction as the car's motion""
- ""in the opposite direction of the passenger's motion""]"	4	3
+ 'in the same direction as the car's motion'
+ 'in the opposite direction of the passenger's motion']"	4	3
 Mercury_SC_408700	Emily made a cup of tea and stirred it with a spoon. The spoon became warm. How was the heat from the tea transferred to the spoon?	C	['convection' 'radiation' 'conduction' 'evaporation']	4	2
 Mercury_7284043	Elephants on the African savanna eat shrubs and small trees. This behavior clears land and enables grass to grow. Grazers such as gazelles eat the grass. Lions prey on the gazelles. Which two organisms in this scenario are in the most cooperative relationship?	C	"['the elephants and the shrubs' 'the shrubs and the lions'
  'the elephants and the gazelles' 'the gazelles and the lions']"	4	2
