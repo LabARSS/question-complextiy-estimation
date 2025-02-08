@@ -20,6 +20,7 @@ optimum-quanto = "^0.2.6"
 torchao = "^0.8.0"
 mistralai = "^1.5.0"
 openai = "^1.61.0"
+nbconvert = "^7.16.6"
 
 
 [build-system]
