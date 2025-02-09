@@ -1,0 +1,297 @@
+2025-02-08 00:14:40,087 - INFO - === Environment Info ===
+2025-02-08 00:14:40,088 - INFO - Environment: Virtualenv (/opt/software/python/envs/google_colab_gpu_2024)
+2025-02-08 00:14:40,088 - INFO - Python: 3.10.15
+2025-02-08 00:14:40,088 - INFO - PyTorch: 2.5.1+cu124
+2025-02-08 00:14:40,088 - INFO - Starting training...
+2025-02-08 00:18:18,475 - INFO - === Пример входных данных ===
+2025-02-08 00:18:18,476 - INFO - Original text with special tokens:
+2025-02-08 00:18:18,476 - INFO - </s></s></s></s></s></s><s>[INST] Analyze the question and select the correct answer. Answer should be a single uppercase letter. Question:A Hausman test would be used for
+Options:
+A. Testing for the presence of multicollinearity in a regression model
+B. Checking the validity of the instrumental variables
+C. Determining whether a variable is endogenous or exogenous
+D. Determining whether an equation that is part of a simultaneous system is identified
+E. Determining whether 2SLS or ILS is optimal
+F. Determining whether a simultaneous framework is needed for a particular variable
+G. Determining the order of integration in a time series
+H. Determining whether the structural form equations can be obtained via substitution from the reduced forms
+I. Testing the null hypothesis in a regression model
+J. Checking the goodness of fit in a multiple regression model [/INST] Answer:F</s>
+2025-02-08 00:18:18,476 - INFO - Clean text:
+2025-02-08 00:18:18,476 - INFO -  Analyze the question and select the correct answer. Answer should be a single uppercase letter. Question:A Hausman test would be used for
+Options:
+A. Testing for the presence of multicollinearity in a regression model
+B. Checking the validity of the instrumental variables
+C. Determining whether a variable is endogenous or exogenous
+D. Determining whether an equation that is part of a simultaneous system is identified
+E. Determining whether 2SLS or ILS is optimal
+F. Determining whether a simultaneous framework is needed for a particular variable
+G. Determining the order of integration in a time series
+H. Determining whether the structural form equations can be obtained via substitution from the reduced forms
+I. Testing the null hypothesis in a regression model
+J. Checking the goodness of fit in a multiple regression model  Answer:F
+2025-02-08 00:18:18,480 - INFO - Starting Epoch 1/3
+2025-02-08 00:18:24,466 - INFO - Epoch 1, Batch 1: Loss = 2.569, Acc = 52.54%
+2025-02-08 00:18:40,654 - INFO - Log Interval: Avg Loss = 0.1521, Avg Acc = 57.22%
+2025-02-08 00:18:42,381 - INFO - Epoch 1, Batch 11: Loss = 3.557, Acc = 47.42%
+2025-02-08 00:18:59,660 - INFO - Log Interval: Avg Loss = 0.1193, Avg Acc = 64.13%
+2025-02-08 00:19:01,382 - INFO - Epoch 1, Batch 21: Loss = 2.096, Acc = 55.49%
+2025-02-08 00:19:17,856 - INFO - Log Interval: Avg Loss = 0.1017, Avg Acc = 67.42%
+2025-02-08 00:19:19,577 - INFO - Epoch 1, Batch 31: Loss = 1.317, Acc = 70.83%
+2025-02-08 00:19:36,115 - INFO - Log Interval: Avg Loss = 0.0888, Avg Acc = 70.53%
+2025-02-08 00:19:37,841 - INFO - Epoch 1, Batch 41: Loss = 1.101, Acc = 74.24%
+2025-02-08 00:19:54,565 - INFO - Log Interval: Avg Loss = 0.0853, Avg Acc = 70.34%
+2025-02-08 00:19:56,358 - INFO - Epoch 1, Batch 51: Loss = 1.770, Acc = 67.54%
+2025-02-08 00:20:12,837 - INFO - Log Interval: Avg Loss = 0.0726, Avg Acc = 72.43%
+2025-02-08 00:20:14,631 - INFO - Epoch 1, Batch 61: Loss = 0.981, Acc = 77.02%
+2025-02-08 00:20:30,895 - INFO - Log Interval: Avg Loss = 0.0732, Avg Acc = 72.39%
+2025-02-08 00:20:32,815 - INFO - Epoch 1, Batch 71: Loss = 1.495, Acc = 62.70%
+2025-02-08 00:20:49,341 - INFO - Log Interval: Avg Loss = 0.0738, Avg Acc = 73.16%
+2025-02-08 00:20:51,027 - INFO - Epoch 1, Batch 81: Loss = 1.295, Acc = 68.65%
+2025-02-08 00:21:07,062 - INFO - Log Interval: Avg Loss = 0.0819, Avg Acc = 71.43%
+2025-02-08 00:21:08,764 - INFO - Epoch 1, Batch 91: Loss = 1.652, Acc = 59.54%
+2025-02-08 00:21:25,218 - INFO - Log Interval: Avg Loss = 0.0796, Avg Acc = 70.95%
+2025-02-08 00:21:27,057 - INFO - Epoch 1, Batch 101: Loss = 1.327, Acc = 70.48%
+2025-02-08 00:21:43,056 - INFO - Log Interval: Avg Loss = 0.0808, Avg Acc = 70.50%
+2025-02-08 00:21:44,780 - INFO - Epoch 1, Batch 111: Loss = 0.614, Acc = 86.32%
+2025-02-08 00:22:02,092 - INFO - Log Interval: Avg Loss = 0.0679, Avg Acc = 74.17%
+2025-02-08 00:22:03,890 - INFO - Epoch 1, Batch 121: Loss = 1.254, Acc = 73.21%
+2025-02-08 00:22:20,112 - INFO - Log Interval: Avg Loss = 0.0743, Avg Acc = 72.25%
+2025-02-08 00:22:21,842 - INFO - Epoch 1, Batch 131: Loss = 1.168, Acc = 75.12%
+2025-02-08 00:22:38,012 - INFO - Log Interval: Avg Loss = 0.0708, Avg Acc = 73.35%
+2025-02-08 00:22:39,831 - INFO - Epoch 1, Batch 141: Loss = 1.518, Acc = 62.91%
+2025-02-08 00:22:57,003 - INFO - Log Interval: Avg Loss = 0.0670, Avg Acc = 74.89%
+2025-02-08 00:22:58,817 - INFO - Epoch 1, Batch 151: Loss = 0.754, Acc = 78.35%
+2025-02-08 00:23:15,485 - INFO - Log Interval: Avg Loss = 0.0702, Avg Acc = 72.37%
+2025-02-08 00:23:17,378 - INFO - Epoch 1, Batch 161: Loss = 0.948, Acc = 78.18%
+2025-02-08 00:23:33,547 - INFO - Log Interval: Avg Loss = 0.0655, Avg Acc = 74.70%
+2025-02-08 00:23:35,327 - INFO - Epoch 1, Batch 171: Loss = 1.110, Acc = 72.88%
+2025-02-08 00:23:51,865 - INFO - Log Interval: Avg Loss = 0.0684, Avg Acc = 74.38%
+2025-02-08 00:23:53,592 - INFO - Epoch 1, Batch 181: Loss = 1.326, Acc = 69.23%
+2025-02-08 00:24:09,848 - INFO - Log Interval: Avg Loss = 0.0713, Avg Acc = 73.24%
+2025-02-08 00:24:11,688 - INFO - Epoch 1, Batch 191: Loss = 1.401, Acc = 67.86%
+2025-02-08 00:24:28,163 - INFO - Log Interval: Avg Loss = 0.0739, Avg Acc = 72.05%
+2025-02-08 00:24:30,063 - INFO - Epoch 1, Batch 201: Loss = 1.414, Acc = 68.70%
+2025-02-08 00:24:46,522 - INFO - Log Interval: Avg Loss = 0.0666, Avg Acc = 73.58%
+2025-02-08 00:24:48,343 - INFO - Epoch 1, Batch 211: Loss = 0.922, Acc = 76.64%
+2025-02-08 00:25:04,913 - INFO - Log Interval: Avg Loss = 0.0686, Avg Acc = 73.07%
+2025-02-08 00:25:06,642 - INFO - Epoch 1, Batch 221: Loss = 0.812, Acc = 75.89%
+2025-02-08 00:25:22,813 - INFO - Log Interval: Avg Loss = 0.0681, Avg Acc = 72.89%
+2025-02-08 00:25:24,635 - INFO - Epoch 1, Batch 231: Loss = 1.787, Acc = 65.64%
+2025-02-08 00:25:41,056 - INFO - Log Interval: Avg Loss = 0.0686, Avg Acc = 74.03%
+2025-02-08 00:25:43,052 - INFO - Epoch 1, Batch 241: Loss = 1.004, Acc = 85.29%
+2025-02-08 00:25:58,995 - INFO - Log Interval: Avg Loss = 0.0706, Avg Acc = 73.52%
+2025-02-08 00:26:00,786 - INFO - Epoch 1, Batch 251: Loss = 0.670, Acc = 80.66%
+2025-02-08 00:26:16,927 - INFO - Log Interval: Avg Loss = 0.0621, Avg Acc = 75.63%
+2025-02-08 00:26:18,756 - INFO - Epoch 1, Batch 261: Loss = 1.148, Acc = 71.30%
+2025-02-08 00:26:35,221 - INFO - Log Interval: Avg Loss = 0.0673, Avg Acc = 74.24%
+2025-02-08 00:26:36,931 - INFO - Epoch 1, Batch 271: Loss = 0.774, Acc = 82.39%
+2025-02-08 00:26:53,545 - INFO - Log Interval: Avg Loss = 0.0662, Avg Acc = 75.54%
+2025-02-08 00:26:55,275 - INFO - Epoch 1, Batch 281: Loss = 0.829, Acc = 80.62%
+2025-02-08 00:27:11,530 - INFO - Log Interval: Avg Loss = 0.0638, Avg Acc = 77.44%
+2025-02-08 00:27:13,261 - INFO - Epoch 1, Batch 291: Loss = 0.825, Acc = 79.03%
+2025-02-08 00:27:29,941 - INFO - Log Interval: Avg Loss = 0.0635, Avg Acc = 75.17%
+2025-02-08 00:27:31,670 - INFO - Epoch 1, Batch 301: Loss = 0.698, Acc = 83.49%
+2025-02-08 00:27:48,077 - INFO - Log Interval: Avg Loss = 0.0666, Avg Acc = 75.48%
+2025-02-08 00:27:49,884 - INFO - Epoch 1, Batch 311: Loss = 1.116, Acc = 71.91%
+2025-02-08 00:28:06,947 - INFO - Log Interval: Avg Loss = 0.0693, Avg Acc = 74.06%
+2025-02-08 00:28:08,749 - INFO - Epoch 1, Batch 321: Loss = 0.519, Acc = 83.24%
+2025-02-08 00:28:24,886 - INFO - Log Interval: Avg Loss = 0.0654, Avg Acc = 75.50%
+2025-02-08 00:28:26,693 - INFO - Epoch 1, Batch 331: Loss = 1.042, Acc = 79.27%
+2025-02-08 00:28:43,502 - INFO - Log Interval: Avg Loss = 0.0640, Avg Acc = 75.73%
+2025-02-08 00:28:45,219 - INFO - Epoch 1, Batch 341: Loss = 1.210, Acc = 74.47%
+2025-02-08 00:29:01,395 - INFO - Log Interval: Avg Loss = 0.0618, Avg Acc = 76.51%
+2025-02-08 00:29:03,178 - INFO - Epoch 1, Batch 351: Loss = 0.632, Acc = 80.60%
+2025-02-08 00:29:20,148 - INFO - Log Interval: Avg Loss = 0.0633, Avg Acc = 74.71%
+2025-02-08 00:29:22,060 - INFO - Epoch 1, Batch 361: Loss = 1.297, Acc = 73.61%
+2025-02-08 00:29:38,342 - INFO - Log Interval: Avg Loss = 0.0660, Avg Acc = 75.10%
+2025-02-08 00:29:40,069 - INFO - Epoch 1, Batch 371: Loss = 1.022, Acc = 80.37%
+2025-02-08 00:29:56,615 - INFO - Log Interval: Avg Loss = 0.0657, Avg Acc = 74.64%
+2025-02-08 00:29:58,497 - INFO - Epoch 1, Batch 381: Loss = 2.006, Acc = 63.52%
+2025-02-08 00:30:14,935 - INFO - Log Interval: Avg Loss = 0.0646, Avg Acc = 75.04%
+2025-02-08 00:30:16,746 - INFO - Epoch 1, Batch 391: Loss = 0.704, Acc = 81.43%
+2025-02-08 00:30:33,266 - INFO - Log Interval: Avg Loss = 0.0592, Avg Acc = 77.17%
+2025-02-08 00:30:34,974 - INFO - Epoch 1, Batch 401: Loss = 1.283, Acc = 75.53%
+2025-02-08 00:30:51,526 - INFO - Log Interval: Avg Loss = 0.0670, Avg Acc = 74.00%
+2025-02-08 00:30:53,258 - INFO - Epoch 1, Batch 411: Loss = 0.714, Acc = 81.08%
+2025-02-08 00:31:01,025 - INFO - Epoch 1, Batch 415: Loss = 0.901, Acc = 76.56%
+2025-02-08 00:31:01,093 - INFO - Epoch 1 completed.
+2025-02-08 00:31:43,975 - INFO - Validation Results for Epoch 1: Loss = 0.9805, Accuracy = 76.21%
+2025-02-08 00:31:44,402 - INFO - Starting Epoch 2/3
+2025-02-08 00:31:46,452 - INFO - Epoch 2, Batch 1: Loss = 0.463, Acc = 87.37%
+2025-02-08 00:32:03,187 - INFO - Log Interval: Avg Loss = 0.0398, Avg Acc = 83.90%
+2025-02-08 00:32:04,999 - INFO - Epoch 2, Batch 11: Loss = 0.555, Acc = 87.65%
+2025-02-08 00:32:21,686 - INFO - Log Interval: Avg Loss = 0.0397, Avg Acc = 83.50%
+2025-02-08 00:32:24,085 - INFO - Epoch 2, Batch 21: Loss = 1.099, Acc = 71.78%
+2025-02-08 00:32:40,456 - INFO - Log Interval: Avg Loss = 0.0359, Avg Acc = 84.63%
+2025-02-08 00:32:42,240 - INFO - Epoch 2, Batch 31: Loss = 0.939, Acc = 76.04%
+2025-02-08 00:32:58,498 - INFO - Log Interval: Avg Loss = 0.0391, Avg Acc = 82.45%
+2025-02-08 00:33:00,292 - INFO - Epoch 2, Batch 41: Loss = 0.826, Acc = 78.57%
+2025-02-08 00:33:16,821 - INFO - Log Interval: Avg Loss = 0.0368, Avg Acc = 84.13%
+2025-02-08 00:33:18,551 - INFO - Epoch 2, Batch 51: Loss = 0.557, Acc = 87.01%
+2025-02-08 00:33:34,730 - INFO - Log Interval: Avg Loss = 0.0359, Avg Acc = 84.58%
+2025-02-08 00:33:36,623 - INFO - Epoch 2, Batch 61: Loss = 0.440, Acc = 89.39%
+2025-02-08 00:33:52,504 - INFO - Log Interval: Avg Loss = 0.0343, Avg Acc = 85.14%
+2025-02-08 00:33:54,298 - INFO - Epoch 2, Batch 71: Loss = 0.467, Acc = 82.93%
+2025-02-08 00:34:12,173 - INFO - Log Interval: Avg Loss = 0.0349, Avg Acc = 84.27%
+2025-02-08 00:34:13,860 - INFO - Epoch 2, Batch 81: Loss = 0.375, Acc = 90.54%
+2025-02-08 00:34:30,780 - INFO - Log Interval: Avg Loss = 0.0336, Avg Acc = 84.91%
+2025-02-08 00:34:32,586 - INFO - Epoch 2, Batch 91: Loss = 0.430, Acc = 87.64%
+2025-02-08 00:34:49,057 - INFO - Log Interval: Avg Loss = 0.0333, Avg Acc = 85.39%
+2025-02-08 00:34:50,841 - INFO - Epoch 2, Batch 101: Loss = 0.471, Acc = 84.39%
+2025-02-08 00:35:06,864 - INFO - Log Interval: Avg Loss = 0.0315, Avg Acc = 86.05%
+2025-02-08 00:35:08,764 - INFO - Epoch 2, Batch 111: Loss = 0.406, Acc = 87.25%
+2025-02-08 00:35:25,471 - INFO - Log Interval: Avg Loss = 0.0331, Avg Acc = 85.02%
+2025-02-08 00:35:27,194 - INFO - Epoch 2, Batch 121: Loss = 0.501, Acc = 82.87%
+2025-02-08 00:35:44,080 - INFO - Log Interval: Avg Loss = 0.0326, Avg Acc = 85.39%
+2025-02-08 00:35:45,858 - INFO - Epoch 2, Batch 131: Loss = 0.554, Acc = 82.14%
+2025-02-08 00:36:02,021 - INFO - Log Interval: Avg Loss = 0.0347, Avg Acc = 84.86%
+2025-02-08 00:36:03,747 - INFO - Epoch 2, Batch 141: Loss = 0.554, Acc = 82.57%
+2025-02-08 00:36:20,098 - INFO - Log Interval: Avg Loss = 0.0343, Avg Acc = 85.11%
+2025-02-08 00:36:22,000 - INFO - Epoch 2, Batch 151: Loss = 0.428, Acc = 87.30%
+2025-02-08 00:36:38,390 - INFO - Log Interval: Avg Loss = 0.0319, Avg Acc = 85.66%
+2025-02-08 00:36:40,229 - INFO - Epoch 2, Batch 161: Loss = 0.398, Acc = 85.92%
+2025-02-08 00:36:56,272 - INFO - Log Interval: Avg Loss = 0.0351, Avg Acc = 84.81%
+2025-02-08 00:36:58,053 - INFO - Epoch 2, Batch 171: Loss = 0.633, Acc = 81.95%
+2025-02-08 00:37:14,275 - INFO - Log Interval: Avg Loss = 0.0335, Avg Acc = 84.94%
+2025-02-08 00:37:15,995 - INFO - Epoch 2, Batch 181: Loss = 0.621, Acc = 84.31%
+2025-02-08 00:37:32,481 - INFO - Log Interval: Avg Loss = 0.0313, Avg Acc = 85.63%
+2025-02-08 00:37:34,267 - INFO - Epoch 2, Batch 191: Loss = 0.336, Acc = 92.07%
+2025-02-08 00:37:50,588 - INFO - Log Interval: Avg Loss = 0.0322, Avg Acc = 85.30%
+2025-02-08 00:37:52,291 - INFO - Epoch 2, Batch 201: Loss = 0.343, Acc = 90.18%
+2025-02-08 00:38:08,617 - INFO - Log Interval: Avg Loss = 0.0326, Avg Acc = 85.26%
+2025-02-08 00:38:10,427 - INFO - Epoch 2, Batch 211: Loss = 0.383, Acc = 87.62%
+2025-02-08 00:38:26,873 - INFO - Log Interval: Avg Loss = 0.0345, Avg Acc = 84.14%
+2025-02-08 00:38:28,662 - INFO - Epoch 2, Batch 221: Loss = 0.401, Acc = 87.22%
+2025-02-08 00:38:45,146 - INFO - Log Interval: Avg Loss = 0.0298, Avg Acc = 86.15%
+2025-02-08 00:38:46,875 - INFO - Epoch 2, Batch 231: Loss = 0.563, Acc = 88.54%
+2025-02-08 00:39:03,782 - INFO - Log Interval: Avg Loss = 0.0333, Avg Acc = 85.39%
+2025-02-08 00:39:05,548 - INFO - Epoch 2, Batch 241: Loss = 0.332, Acc = 88.96%
+2025-02-08 00:39:22,003 - INFO - Log Interval: Avg Loss = 0.0335, Avg Acc = 85.03%
+2025-02-08 00:39:23,720 - INFO - Epoch 2, Batch 251: Loss = 0.665, Acc = 83.87%
+2025-02-08 00:39:40,130 - INFO - Log Interval: Avg Loss = 0.0320, Avg Acc = 85.69%
+2025-02-08 00:39:42,043 - INFO - Epoch 2, Batch 261: Loss = 0.493, Acc = 83.52%
+2025-02-08 00:39:59,111 - INFO - Log Interval: Avg Loss = 0.0334, Avg Acc = 84.49%
+2025-02-08 00:40:01,019 - INFO - Epoch 2, Batch 271: Loss = 0.778, Acc = 83.23%
+2025-02-08 00:40:17,613 - INFO - Log Interval: Avg Loss = 0.0304, Avg Acc = 86.28%
+2025-02-08 00:40:19,331 - INFO - Epoch 2, Batch 281: Loss = 0.297, Acc = 90.10%
+2025-02-08 00:40:35,231 - INFO - Log Interval: Avg Loss = 0.0327, Avg Acc = 85.42%
+2025-02-08 00:40:37,010 - INFO - Epoch 2, Batch 291: Loss = 0.381, Acc = 86.42%
+2025-02-08 00:40:53,180 - INFO - Log Interval: Avg Loss = 0.0307, Avg Acc = 85.87%
+2025-02-08 00:40:55,113 - INFO - Epoch 2, Batch 301: Loss = 0.310, Acc = 92.25%
+2025-02-08 00:41:11,916 - INFO - Log Interval: Avg Loss = 0.0338, Avg Acc = 85.13%
+2025-02-08 00:41:13,727 - INFO - Epoch 2, Batch 311: Loss = 0.449, Acc = 91.38%
+2025-02-08 00:41:29,888 - INFO - Log Interval: Avg Loss = 0.0346, Avg Acc = 84.53%
+2025-02-08 00:41:31,785 - INFO - Epoch 2, Batch 321: Loss = 0.533, Acc = 82.96%
+2025-02-08 00:41:47,750 - INFO - Log Interval: Avg Loss = 0.0303, Avg Acc = 86.36%
+2025-02-08 00:41:49,876 - INFO - Epoch 2, Batch 331: Loss = 0.378, Acc = 89.09%
+2025-02-08 00:42:06,226 - INFO - Log Interval: Avg Loss = 0.0337, Avg Acc = 84.99%
+2025-02-08 00:42:07,961 - INFO - Epoch 2, Batch 341: Loss = 0.615, Acc = 83.16%
+2025-02-08 00:42:24,333 - INFO - Log Interval: Avg Loss = 0.0318, Avg Acc = 85.32%
+2025-02-08 00:42:26,050 - INFO - Epoch 2, Batch 351: Loss = 0.431, Acc = 87.71%
+2025-02-08 00:42:42,417 - INFO - Log Interval: Avg Loss = 0.0318, Avg Acc = 85.55%
+2025-02-08 00:42:44,199 - INFO - Epoch 2, Batch 361: Loss = 0.323, Acc = 88.16%
+2025-02-08 00:43:00,716 - INFO - Log Interval: Avg Loss = 0.0367, Avg Acc = 83.16%
+2025-02-08 00:43:02,640 - INFO - Epoch 2, Batch 371: Loss = 0.655, Acc = 80.32%
+2025-02-08 00:43:18,971 - INFO - Log Interval: Avg Loss = 0.0341, Avg Acc = 84.63%
+2025-02-08 00:43:20,757 - INFO - Epoch 2, Batch 381: Loss = 0.295, Acc = 91.18%
+2025-02-08 00:43:37,636 - INFO - Log Interval: Avg Loss = 0.0333, Avg Acc = 85.43%
+2025-02-08 00:43:39,346 - INFO - Epoch 2, Batch 391: Loss = 0.644, Acc = 78.92%
+2025-02-08 00:43:55,764 - INFO - Log Interval: Avg Loss = 0.0322, Avg Acc = 85.01%
+2025-02-08 00:43:57,541 - INFO - Epoch 2, Batch 401: Loss = 0.426, Acc = 86.67%
+2025-02-08 00:44:13,990 - INFO - Log Interval: Avg Loss = 0.0322, Avg Acc = 85.38%
+2025-02-08 00:44:15,892 - INFO - Epoch 2, Batch 411: Loss = 0.293, Acc = 90.96%
+2025-02-08 00:44:23,242 - INFO - Epoch 2, Batch 415: Loss = 0.516, Acc = 85.64%
+2025-02-08 00:44:23,324 - INFO - Epoch 2 completed.
+2025-02-08 00:45:05,815 - INFO - Validation Results for Epoch 2: Loss = 1.0237, Accuracy = 75.98%
+2025-02-08 00:45:05,891 - INFO - Starting Epoch 3/3
+2025-02-08 00:45:07,973 - INFO - Epoch 3, Batch 1: Loss = 0.311, Acc = 91.84%
+2025-02-08 00:45:26,428 - INFO - Log Interval: Avg Loss = 0.0190, Avg Acc = 91.58%
+2025-02-08 00:45:28,135 - INFO - Epoch 3, Batch 11: Loss = 0.219, Acc = 91.95%
+2025-02-08 00:45:44,442 - INFO - Log Interval: Avg Loss = 0.0188, Avg Acc = 91.61%
+2025-02-08 00:45:46,563 - INFO - Epoch 3, Batch 21: Loss = 0.228, Acc = 90.62%
+2025-02-08 00:46:03,583 - INFO - Log Interval: Avg Loss = 0.0167, Avg Acc = 92.11%
+2025-02-08 00:46:05,411 - INFO - Epoch 3, Batch 31: Loss = 0.273, Acc = 91.74%
+2025-02-08 00:46:21,853 - INFO - Log Interval: Avg Loss = 0.0156, Avg Acc = 92.83%
+2025-02-08 00:46:23,640 - INFO - Epoch 3, Batch 41: Loss = 0.159, Acc = 94.76%
+2025-02-08 00:46:39,943 - INFO - Log Interval: Avg Loss = 0.0180, Avg Acc = 91.91%
+2025-02-08 00:46:41,854 - INFO - Epoch 3, Batch 51: Loss = 0.201, Acc = 93.13%
+2025-02-08 00:46:58,667 - INFO - Log Interval: Avg Loss = 0.0160, Avg Acc = 92.34%
+2025-02-08 00:47:00,579 - INFO - Epoch 3, Batch 61: Loss = 0.096, Acc = 97.26%
+2025-02-08 00:47:18,642 - INFO - Log Interval: Avg Loss = 0.0173, Avg Acc = 92.06%
+2025-02-08 00:47:20,479 - INFO - Epoch 3, Batch 71: Loss = 0.341, Acc = 87.18%
+2025-02-08 00:47:36,861 - INFO - Log Interval: Avg Loss = 0.0169, Avg Acc = 92.05%
+2025-02-08 00:47:38,716 - INFO - Epoch 3, Batch 81: Loss = 0.166, Acc = 95.35%
+2025-02-08 00:47:54,698 - INFO - Log Interval: Avg Loss = 0.0144, Avg Acc = 93.60%
+2025-02-08 00:47:56,579 - INFO - Epoch 3, Batch 91: Loss = 0.227, Acc = 92.66%
+2025-02-08 00:48:12,584 - INFO - Log Interval: Avg Loss = 0.0163, Avg Acc = 92.90%
+2025-02-08 00:48:14,398 - INFO - Epoch 3, Batch 101: Loss = 0.263, Acc = 92.24%
+2025-02-08 00:48:30,632 - INFO - Log Interval: Avg Loss = 0.0157, Avg Acc = 92.47%
+2025-02-08 00:48:32,420 - INFO - Epoch 3, Batch 111: Loss = 0.207, Acc = 92.78%
+2025-02-08 00:48:48,679 - INFO - Log Interval: Avg Loss = 0.0181, Avg Acc = 92.05%
+2025-02-08 00:48:50,404 - INFO - Epoch 3, Batch 121: Loss = 0.230, Acc = 95.97%
+2025-02-08 00:49:07,302 - INFO - Log Interval: Avg Loss = 0.0178, Avg Acc = 91.82%
+2025-02-08 00:49:09,042 - INFO - Epoch 3, Batch 131: Loss = 0.277, Acc = 90.37%
+2025-02-08 00:49:25,269 - INFO - Log Interval: Avg Loss = 0.0172, Avg Acc = 91.62%
+2025-02-08 00:49:27,011 - INFO - Epoch 3, Batch 141: Loss = 0.319, Acc = 91.94%
+2025-02-08 00:49:43,646 - INFO - Log Interval: Avg Loss = 0.0150, Avg Acc = 93.04%
+2025-02-08 00:49:45,486 - INFO - Epoch 3, Batch 151: Loss = 0.295, Acc = 90.06%
+2025-02-08 00:50:02,245 - INFO - Log Interval: Avg Loss = 0.0175, Avg Acc = 91.94%
+2025-02-08 00:50:04,105 - INFO - Epoch 3, Batch 161: Loss = 0.152, Acc = 94.59%
+2025-02-08 00:50:20,036 - INFO - Log Interval: Avg Loss = 0.0160, Avg Acc = 92.49%
+2025-02-08 00:50:21,959 - INFO - Epoch 3, Batch 171: Loss = 0.232, Acc = 92.93%
+2025-02-08 00:50:38,092 - INFO - Log Interval: Avg Loss = 0.0156, Avg Acc = 92.82%
+2025-02-08 00:50:39,899 - INFO - Epoch 3, Batch 181: Loss = 0.203, Acc = 94.17%
+2025-02-08 00:50:56,403 - INFO - Log Interval: Avg Loss = 0.0168, Avg Acc = 92.34%
+2025-02-08 00:50:58,347 - INFO - Epoch 3, Batch 191: Loss = 0.255, Acc = 91.54%
+2025-02-08 00:51:15,426 - INFO - Log Interval: Avg Loss = 0.0164, Avg Acc = 92.38%
+2025-02-08 00:51:17,247 - INFO - Epoch 3, Batch 201: Loss = 0.173, Acc = 95.05%
+2025-02-08 00:51:33,597 - INFO - Log Interval: Avg Loss = 0.0154, Avg Acc = 92.74%
+2025-02-08 00:51:35,422 - INFO - Epoch 3, Batch 211: Loss = 0.423, Acc = 87.81%
+2025-02-08 00:51:52,335 - INFO - Log Interval: Avg Loss = 0.0161, Avg Acc = 92.80%
+2025-02-08 00:51:54,244 - INFO - Epoch 3, Batch 221: Loss = 0.310, Acc = 92.55%
+2025-02-08 00:52:11,066 - INFO - Log Interval: Avg Loss = 0.0159, Avg Acc = 92.54%
+2025-02-08 00:52:12,858 - INFO - Epoch 3, Batch 231: Loss = 0.145, Acc = 94.21%
+2025-02-08 00:52:28,966 - INFO - Log Interval: Avg Loss = 0.0154, Avg Acc = 92.69%
+2025-02-08 00:52:30,748 - INFO - Epoch 3, Batch 241: Loss = 0.554, Acc = 84.35%
+2025-02-08 00:52:47,205 - INFO - Log Interval: Avg Loss = 0.0161, Avg Acc = 92.37%
+2025-02-08 00:52:49,108 - INFO - Epoch 3, Batch 251: Loss = 0.267, Acc = 91.84%
+2025-02-08 00:53:05,779 - INFO - Log Interval: Avg Loss = 0.0163, Avg Acc = 92.31%
+2025-02-08 00:53:07,523 - INFO - Epoch 3, Batch 261: Loss = 0.370, Acc = 86.44%
+2025-02-08 00:53:23,829 - INFO - Log Interval: Avg Loss = 0.0177, Avg Acc = 91.90%
+2025-02-08 00:53:25,566 - INFO - Epoch 3, Batch 271: Loss = 0.294, Acc = 89.93%
+2025-02-08 00:53:42,145 - INFO - Log Interval: Avg Loss = 0.0148, Avg Acc = 92.47%
+2025-02-08 00:53:43,951 - INFO - Epoch 3, Batch 281: Loss = 0.124, Acc = 95.22%
+2025-02-08 00:53:59,955 - INFO - Log Interval: Avg Loss = 0.0155, Avg Acc = 92.70%
+2025-02-08 00:54:01,680 - INFO - Epoch 3, Batch 291: Loss = 0.229, Acc = 92.86%
+2025-02-08 00:54:17,726 - INFO - Log Interval: Avg Loss = 0.0171, Avg Acc = 92.32%
+2025-02-08 00:54:19,529 - INFO - Epoch 3, Batch 301: Loss = 0.282, Acc = 94.58%
+2025-02-08 00:54:36,138 - INFO - Log Interval: Avg Loss = 0.0158, Avg Acc = 92.50%
+2025-02-08 00:54:37,943 - INFO - Epoch 3, Batch 311: Loss = 0.226, Acc = 90.00%
+2025-02-08 00:54:55,364 - INFO - Log Interval: Avg Loss = 0.0177, Avg Acc = 91.65%
+2025-02-08 00:54:57,055 - INFO - Epoch 3, Batch 321: Loss = 0.129, Acc = 95.83%
+2025-02-08 00:55:13,245 - INFO - Log Interval: Avg Loss = 0.0143, Avg Acc = 93.12%
+2025-02-08 00:55:14,987 - INFO - Epoch 3, Batch 331: Loss = 0.150, Acc = 96.08%
+2025-02-08 00:55:32,021 - INFO - Log Interval: Avg Loss = 0.0164, Avg Acc = 92.36%
+2025-02-08 00:55:33,853 - INFO - Epoch 3, Batch 341: Loss = 0.318, Acc = 89.18%
+2025-02-08 00:55:49,533 - INFO - Log Interval: Avg Loss = 0.0161, Avg Acc = 92.48%
+2025-02-08 00:55:51,424 - INFO - Epoch 3, Batch 351: Loss = 0.456, Acc = 85.84%
+2025-02-08 00:56:07,390 - INFO - Log Interval: Avg Loss = 0.0169, Avg Acc = 92.19%
+2025-02-08 00:56:09,407 - INFO - Epoch 3, Batch 361: Loss = 0.229, Acc = 94.56%
+2025-02-08 00:56:25,725 - INFO - Log Interval: Avg Loss = 0.0156, Avg Acc = 92.60%
+2025-02-08 00:56:27,661 - INFO - Epoch 3, Batch 371: Loss = 0.378, Acc = 89.73%
+2025-02-08 00:56:43,760 - INFO - Log Interval: Avg Loss = 0.0177, Avg Acc = 91.74%
+2025-02-08 00:56:45,755 - INFO - Epoch 3, Batch 381: Loss = 0.211, Acc = 93.75%
+2025-02-08 00:57:02,185 - INFO - Log Interval: Avg Loss = 0.0158, Avg Acc = 92.71%
+2025-02-08 00:57:04,000 - INFO - Epoch 3, Batch 391: Loss = 0.189, Acc = 93.14%
+2025-02-08 00:57:20,821 - INFO - Log Interval: Avg Loss = 0.0156, Avg Acc = 92.73%
+2025-02-08 00:57:22,521 - INFO - Epoch 3, Batch 401: Loss = 0.179, Acc = 94.95%
+2025-02-08 00:57:39,472 - INFO - Log Interval: Avg Loss = 0.0167, Avg Acc = 92.33%
+2025-02-08 00:57:41,309 - INFO - Epoch 3, Batch 411: Loss = 0.137, Acc = 95.33%
+2025-02-08 00:57:48,579 - INFO - Epoch 3, Batch 415: Loss = 0.304, Acc = 93.24%
+2025-02-08 00:57:48,649 - INFO - Epoch 3 completed.
+2025-02-08 00:58:31,438 - INFO - Validation Results for Epoch 3: Loss = 1.1140, Accuracy = 75.73%
+2025-02-08 00:58:51,971 - INFO - Saving full model (pytorch_model.bin) via torch.save
+2025-02-08 00:59:43,453 - INFO - Saving model for inference via inference_model.save_pretrained
+2025-02-08 01:01:07,056 - INFO - Full model saved for inference in window_4/epoch_3
+2025-02-08 01:05:07,144 - INFO - Final Test Results: Loss = 1.1543, Accuracy = 74.50%
