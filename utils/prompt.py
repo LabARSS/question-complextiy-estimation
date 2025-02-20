@@ -20,8 +20,14 @@ def get_user_prompt(question: str, options: List[str]):
     return user_prompt
 
 
-estimate_numerical_complexity_system_prompt = 'You are an expert in the topic of the question. Please act as an impartial judge and evaluate the complexity of the multiple-choice question with options below. Begin your evaluation by providing a short explanation. Be as objective as possible. After providing your explanation, you must not answer the question. You must rate the question complexity as a number from 0 to 1 following the following scale as a reference: high_school_and_easier - 0.0-0.25, undergraduate - 0.25-0.5, graduate - 0.5-0.75, postgraduate - 0.75-1.0. You must return the complexity by strictly following this format: "[[complexity]]", for example: "Complexity: [[0.48]]", which corresponds to a hard question at the undergraduate level.'
+estimate_numerical_complexity_system_prompt = 'You are an expert in the topic of the question. Please act as an impartial judge and evaluate the complexity of the multiple-choice question with options below. Begin your evaluation by providing a short explanation. Be as objective as possible. After providing your explanation, you must not answer the question. You must rate the question complexity as a number from 0 to 1 following the following scale as a reference: high_school_and_easier - 0.0-0.22, undergraduate_easy - 0.2-0.4, undergraduate_hard - 0.4-0.6, graduate - 0.6-0.8, postgraduate - 0.8-1.0. You must return the complexity by strictly following this format: "[[complexity]]", for example: "Your explanation... Complexity: [[0.55]]", which corresponds to a hard question at the undergraduate level.'
 
 
-valid_nominal_complexities = ["high_school_and_easier", "undergraduate", "graduate", "postgraduate"]
-estimate_nominal_complexity_system_prompt = f'You are an expert in the topic of the question. Please act as an impartial judge and evaluate the complexity of the multiple-choice question with options below. Begin your evaluation by providing a short explanation. Be as objective as possible. After providing your explanation, you must not answer the question. You must rate the question complexity by strictly following the scale: {", ".join(valid_nominal_complexities)}. You must return the complexity by strictly following this format: "[[complexity]]", for example: "Complexity: [[undergraduate]]", which corresponds to the undergraduate level.'
+valid_nominal_complexities = [
+    "high_school_and_easier",
+    "undergraduate_easy",
+    "undergraduate_hard",
+    "graduate",
+    "postgraduate",
+]
+estimate_nominal_complexity_system_prompt = f'You are an expert in the topic of the question. Please act as an impartial judge and evaluate the complexity of the multiple-choice question with options below. Begin your evaluation by providing a short explanation. Be as objective as possible. After providing your explanation, you must not answer the question. You must rate the question complexity by strictly following the scale: {", ".join(valid_nominal_complexities)}. You must return the complexity by strictly following this format: "[[complexity]]", for example: "Your explanation... Complexity: [[undergraduate]]", which corresponds to the undergraduate level.'
