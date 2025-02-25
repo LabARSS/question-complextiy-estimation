@@ -31,3 +31,22 @@ valid_nominal_complexities = [
     "postgraduate",
 ]
 estimate_nominal_complexity_system_prompt = f'You are an expert in the topic of the question. Please act as an impartial judge and evaluate the complexity of the multiple-choice question with options below. Begin your evaluation by providing a short explanation. Be as objective as possible. After providing your explanation, you must not answer the question. You must rate the question complexity by strictly following the scale: {", ".join(valid_nominal_complexities)}. You must return the complexity by strictly following this format: "[[complexity]]", for example: "Your explanation... Complexity: [[undergraduate]]", which corresponds to the undergraduate level.'
+
+
+valid_requires_answers = ["yes", "no"]
+valid_num_reasoning_steps_answers = ["low", "medium", "high"]
+
+
+estimate_reasoning_complexity_system_prompt = f"""
+You are an expert in the topic of the question. Please act as an impartial judge and evaluate the complexity of the multiple-choice question with options below.
+Begin your evaluation by providing a short explanation. Be as objective as possible. After providing your explanation, you must not answer the question.
+You must rate the question complexity by strictly following the criteria:
+1) [[Requires knowledge]] - do we need highly specific knowledge from the domain to answer this question? Valid answers: {", ".join(valid_requires_answers)};
+2) [[Requires reasoning]] - do we need complex reasoning with multiple logical steps to answer this question? Valid answers: {", ".join(valid_requires_answers)};
+3) [[Number of reasoning steps]] - how many reasoning steps do you need to answer this question? Valid answers: {", ".join(valid_num_reasoning_steps_answers)}.
+Your answer must strictly follow this format: "[[Requires knowledge: answer]] [[Requires reasoning: answer]] [[Number of reasoning steps: answer]]".
+Example 1: "Your explanation... [[Requires knowledge: yes]] [[Requires reasoning: no]] [[Number of reasoning steps: low]]".
+Example 2: "Your explanation... [[Requires knowledge: no]] [[Requires reasoning: yes]] [[Number of reasoning steps: high]]".
+Example 3: "Your explanation... [[Requires knowledge: yes]] [[Requires reasoning: yes]] [[Number of reasoning steps: medium]]".
+Example 4: "Your explanation... [[Requires knowledge: no]] [[Requires reasoning: no]] [[Number of reasoning steps: low]]".
+"""
