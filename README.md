@@ -13,7 +13,7 @@ This repo contains code for the paper ["When an LLM is apprehensive about its an
 @article{llmuncertainty,
 title        = {When an LLM is apprehensive about its answers - and when its uncertainty is justified},
 author       = {Petr Sychev and Andrey Goncharov and Daniil Vyazhev and Edvard Khalafyan and Alexey Zaytsev},
-howpublished = {},
+howpublished = {https://arxiv.org/abs/2503.01688},
 year         = {2025}
 }
 ```
